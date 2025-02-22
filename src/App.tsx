@@ -77,9 +77,9 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-[#760498] to-[#96004C] flex flex-col items-center">
-      <header className="bg-[#771a94] text-white py-6 px-8 shadow-lg flex flex-col items-center w-full">
+      <header className="bg-[#fefcff] text-purple-950 py-6 px-8 shadow-lg flex flex-col items-center w-full">
         <img src={SBIlogo} alt="SBI Logo" className="h-14 mb-2" />
-        <h1 className="text-4xl font-bold text-yellow-400 text-center">Fraud Detection System</h1>
+        <h1 className="text-4xl font-bold text bg-purple-950-#760498 text-center">Fraud Detection System</h1>
       </header>
 
       <main className="container mx-auto py-8 px-4 w-full flex flex-col lg:flex-row gap-8">
