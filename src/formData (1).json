@@ -1,0 +1,22 @@
+{
+  "policy_holder_name": "Abhishek Tiwari",
+  "assured_age": "20",
+  "nominee_relation": "Brother",
+  "occupation": "Business",
+  "policy_sum_assured": "10",
+  "premium": "5",
+  "premium_payment_mode": "Yearly",
+  "annual_income": "10000",
+  "holder_marital_status": "Single",
+  "indiv_requirement_flag": "Non Medical",
+  "policy_term": "20",
+  "policy_payment_term": "2",
+  "product_type": "Traditional",
+  "channel": "Retail Agency",
+  "bank_code": "788",
+  "policy_risk_commencement_date": "2/02/24",
+  "date_of_death": "3/3/36",
+  "intimation_date": "23/2/34",
+  "status": "Claim",
+  "sub_status": "Free Look Cancellation"
+}
