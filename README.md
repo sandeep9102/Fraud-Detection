@@ -13,4 +13,12 @@ Features
 3. Fast & Scalable: Deployed on Vercel for efficient performance and scalability.
 
 4. Secure & Reliable: Implements best practices for secure authentication and fraud prevention.
-5. 
+
+
+Technology Stack
+
+Frontend: Developed and deployed on Vercel.
+
+Backend: Python-based machine learning models for fraud detection and signature verification.
+
+Machine Learning: Custom-trained models for classification and similarity analysis.
