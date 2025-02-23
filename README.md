@@ -6,13 +6,13 @@ This platform is designed to detect fraudulent activities by leveraging advanced
 
 Features
 
-1.** Fraud Classification**: Uses a trained model to identify potential fraudulent transactions.
+1.**Fraud Classification**: Uses a trained model to identify potential fraudulent transactions.
 
-2.** Signature Similarity Matching**: Compares user signatures to determine authenticity.
+2.**Signature Similarity Matching**: Compares user signatures to determine authenticity.
 
-3. **Fast & Scalable**: Deployed on Vercel for efficient performance and scalability.
+3.**Fast & Scalable**: Deployed on Vercel for efficient performance and scalability.
 
-4. **Secure & Reliable**: Implements best practices for secure authentication and fraud prevention.
+4.**Secure & Reliable**: Implements best practices for secure authentication and fraud prevention.
 
 
 Technology Stack
