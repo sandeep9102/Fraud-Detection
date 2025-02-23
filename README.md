@@ -3,7 +3,16 @@
 This platform is designed to detect fraudulent activities by leveraging advanced **Machine Learning** techniques. It is deployed on Vercel and consists of a robust backend that handles **fraud classification** and **Signature Similarity Matching** through **Similarity Score**. The system verifies whether a given signature belongs to the original person or is a **Forgery**.
 
 Link for the UI: https://fraud-detection-ashy.vercel.app/
-Link for gradio deployment of Signature Authenticatio: https://huggingface.co/spaces/786avinash/signatureapi
+
+## Steps for Demo of the model Signature Authentication:
+Step 1: Open the link:  https://huggingface.co/spaces/786avinash/signatureapi
+Step 2: Enter Policy Number(from 1 to 7-as per our Dummy data).
+Step 3: Upload the document with Signature.
+Step 4: Click on Submit Button.
+
+
+
+
 Link for Backend Server: https://github.com/Princccee/fraud_detection
 
 
