@@ -6,8 +6,11 @@ Link for the UI: https://fraud-detection-ashy.vercel.app/
 
 ## Steps for Demo of the model Signature Authentication:
 Step 1: Open the link:  https://huggingface.co/spaces/786avinash/signatureapi
+
 Step 2: Enter Policy Number(from 1 to 7-as per our Dummy data).
+
 Step 3: Upload the document with Signature.
+
 Step 4: Click on Submit Button.
 
 
