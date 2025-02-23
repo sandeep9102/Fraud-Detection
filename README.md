@@ -1,6 +1,6 @@
                            ##SBI LIFE INSURANCE HACKATHON
 
-This platform is designed to detect fraudulent activities by leveraging advanced machine learning techniques. It is deployed on Vercel and consists of a robust backend that handles fraud classification and signature similarity matching through Similarity Score. The system verifies whether a given signature belongs to the original person or is a forgery.
+This platform is designed to detect fraudulent activities by leveraging advanced **Machine Learning** techniques. It is deployed on Vercel and consists of a robust backend that handles **fraud classification** and **Signature Similarity Matching** through **Similarity Score**. The system verifies whether a given signature belongs to the original person or is a **Forgery**.
 
 
 
