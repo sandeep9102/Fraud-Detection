@@ -4,7 +4,7 @@ This platform is designed to detect fraudulent activities by leveraging advanced
 
 
 
-Features
+**Features**
 
 1.**Fraud Classification**: Uses a trained model to identify potential fraudulent transactions.
 
@@ -15,7 +15,7 @@ Features
 4.**Secure & Reliable**: Implements best practices for secure authentication and fraud prevention.
 
 
-Technology Stack
+**Technology Stack**
 
 **Frontend**: Developed and deployed on Vercel.
 
