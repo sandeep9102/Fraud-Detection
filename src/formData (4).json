@@ -1,0 +1,13 @@
+{
+  "policy_holder_name": "Sandeep",
+  "assured_age": "3",
+  "nominee_relation": "Spouse",
+  "occupation": "Service",
+  "premium_payment_mode": "Yearly",
+  "holder_marital_status": "Married",
+  "indiv_requirement_flag": "Non Medical",
+  "product_type": "Traditional",
+  "channel": "Bancassurance",
+  "status": "Rejection",
+  "sub_status": "Surrendered"
+}

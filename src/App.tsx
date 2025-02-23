@@ -25,21 +25,59 @@ function App() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  // **API Call for Manual Data Submission**
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const jsonString = JSON.stringify(formData, null, 2);
-    const blob = new Blob([jsonString], { type: 'application/json' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = 'formData.json';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+
+    try {
+      const response = await fetch('https://frauddetection-production-40cd.up.railway.app/model/predict/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        alert(`Prediction Result: ${JSON.stringify(result)}`);
+        setFormData({});
+      } else {
+        alert(`Error: ${result.message || 'Failed to submit data'}`);
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Failed to connect to the server');
+    }
   };
 
-  const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+  // **API Call for CSV/XLS File Upload**
+  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.files && event.target.files[0]) {
-      setFile(event.target.files[0]);
+      const file = event.target.files[0];
+      setFile(file);
+
+      const formData = new FormData();
+      formData.append('file', file);
+
+      try {
+        const response = await fetch('https://frauddetection-production-40cd.up.railway.app/model/predict_file/', {
+          method: 'POST',
+          body: formData,
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+          alert(`File uploaded successfully! Prediction Result: ${JSON.stringify(result)}`);
+        } else {
+          alert(`Error: ${result.message || 'Failed to upload file'}`);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('Failed to connect to the server');
+      }
     }
   };
 
